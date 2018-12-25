@@ -1,0 +1,358 @@
+.beijingtu{
+    background: url(../images/c.jpg) no-repeat left #030504;
+    background-size: contain;
+    min-height: 300px;
+}
+.wenzi{
+    
+    padding-top: 7.5rem;
+}
+.page{
+    color: #fff;
+    font-size: 4em;
+    font-weight: 300;
+    text-align: center;
+}
+/*@media (min-width: 1200px).container {
+        width: 1170px;
+    }
+@media (min-width: 992px).container {
+       width: 970px;
+    }
+ @media (min-width: 768px).container {
+        width: 750px;
+     }*/
+.tuwen1{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 30px;
+
+}
+.tuwen1 a img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.tuwen1wen{
+    background: #f4f4f4;
+    padding: 2em 1.5em;
+    border: 1px solid #ddd;
+    border-top: none;
+
+}
+.h3-1{
+    color: #111;
+    font-size: 1.8em;
+    margin: 10px 0;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.tuwen1wen a{
+    text-decoration: none;
+}
+.consect li a{
+    text-decoration: none;
+}
+.h6.jan{
+    color: #444;
+    float: left;
+    padding: 0;
+    font-size: 1em;
+}
+.anniu{
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+.anniu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.anniu ul li a{
+    background: #fff;
+    padding: 8px 1.1em;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: #222;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 1em;
+    text-decoration: none;
+    border: 1px solid #D6D4D4;
+    border-radius: 4px;
+    border-radius: 4px;
+}
+.an1:hover,.an2:hover{
+    background: mediumvioletred;
+    color: white;
+}
+.anniu ul li a{
+    text-decoration: none;
+}
+.youbian h4{
+    font-size: 1.9em;
+    font-weight: 700;
+    color: #006eb7;
+    line-height: 1.1;
+}
+.youbian{
+    margin-top: 15px;
+
+}
+.jan{
+    color: #444;
+    float: left;
+    padding: 0;
+    font-size: 1em;
+}
+.admin{
+    color: #444;
+
+    float: right;
+    font-size: 0.9em;
+    margin-top: -26px;
+    margin-left: 310px;
+}
+.sitp{
+    display: table;
+}
+.sit{
+    font-size: 1em;
+    line-height: 1.9em;
+    color: #444;
+    margin: 10px 0;
+    display: block;
+}
+.tuwen1tu{
+    margin-bottom: 40px;
+
+}
+.youbian h5{
+    font-size: 1.6em;
+    color: #3b5998;
+}
+.youbian .ul1 li{
+    display: inline-block;
+
+}
+.youbian ul.ul1{
+    margin-top: 12px;
+    margin-left: -5px;
+}
+.consect li a{
+    display: block;
+    color: #444;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+.youxia{
+    margin-top: 40px;
+}
+.consect{
+    margin-left: -9px;
+}
+.consect li{
+    display: block;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: 1px solid #DBDCDC;
+    margin-bottom: -1px;
+}
+.consect li:first-child{
+    border-top-left-radius: 4px ;
+    border-top-right-radius: 4px ;
+}
+.consect li:last-child{
+    border-bottom-left-radius: 4px ;
+    border-bottom-right-radius: 4px ;
+}
+.consect li span{
+    color: #888;
+    font-size: 13px;
+    line-height: 32px;
+}
+/*footer*/
+.footer{
+    background:url(../images/c.jpg) center no-repeat ;
+    background-size: cover;
+    height: 582px;
+    color: #fff;
+}
+.footer h4{
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+    margin-top: 2rem;
+}
+.footer p{
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 1.5rem 0;
+}
+.footer a{
+    text-decoration:none;
+    color: #fff;
+}
+.footer div:nth-child(3) h4{
+    margin-left: 0.5rem;
+}
+.footer div:nth-child(3) ul>li{
+    margin: 0.5rem;
+    float: left;
+    padding: 0;
+}
+.footer ul>li{
+    margin: 1.5rem 0;
+    list-style: none;
+}
+.footer ul{
+    padding: 0;
+}
+.footer img{
+    width: 66.3px;
+    height: 66.3px;
+}
+.footer_bottom{
+    border:1px solid #fff;
+    border-radius: 8px;
+    background-color: rgba(3, 5, 4, 0.93);
+    padding: 20px 0;
+    margin: 20px auto 0;
+}
+.footer_bottom h4{
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+    margin-top: 18px;
+}
+.footer_bottom p{
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    word-spacing: 1px;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 12px;
+}
+.footer_bottom form{
+    margin-bottom: 20px;
+}
+.footer_bottom input{
+    display: inline-block;
+    border: none;
+    width: 48%;
+    outline: none;
+    padding: 15px;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+.footer_bottom button{
+    width: 12%;
+    background: red;
+    border: 0;
+    padding: 15px;
+    font-size: 1em;
+}
+/*底部白色部分*/
+.assrted{
+    width: 30%;
+    float: left;
+}
+.assrted a h2{
+    color: red;
+    font-size: 35px;
+}
+.assrted p{
+    color: #ababab;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0;
+}
+.foot-con{
+    box-shadow: 5px 10px 10px 0px rgba(216, 216, 216, 0.78);
+    padding: 10px;
+    border:1px solid #e4e4e4;
+    width: 22%;
+    float: right;
+}
+.foot-con h2{
+    color: #031f9a;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.foot-white{
+    margin: 30px auto;
+}
+/*最底部蓝色框*/
+.copyright{
+    background: #0087c9;
+    text-align: center;
+    padding: 15px;
+    margin-top: 9rem;
+}
+.copyright p{
+    margin: 0;
+    line-height: 2;
+    font-size: 14px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo a{
+    color: #0aab8a;
+}
+.logo a:hover{
+    color: #0aab8a;
+    text-decoration: none;
+}
+.ul li{
+    margin-right: 15px;
+    line-height: 53px;
+}
+.Ulbtn{
+    box-shadow:5px 10px 10px 0px rgba(216, 216, 216, 0.78);
+    border-left: 2px solid #eee;
+    border-top: 2px solid #eee;
+}
+.Ulbtn li{
+    padding: 8px 10px;
+}
+
+/*nav*/
+.my_p{
+    width:100%;
+    height:1px;
+    background: rgba(119, 119, 119, 0.33);
+    margin: 0;
+    margin-top: 0.8rem;
+}
+
+.all a{
+    color:black;
+}
+.all button:hover,.all button:focus{
+    color: white;
+    background: red !important;
+    box-shadow: 0 0 0 0 transparent !important;
+}
+.all>li>a:hover,.all>li>a:focus{
+    color: white;
+    background: red;
+    box-shadow: 0 0 0 0 transparent !important;
+}
+.all>div>ul>li>a:hover{
+    text-decoration: none;
+    color: red;
+}
+.all>div>ul>li:active{
+    background-color: white !important;
+}

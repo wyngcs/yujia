@@ -1,0 +1,553 @@
+/*header*/
+/**{*/
+/*padding: 0;*/
+/*margin: 0;*/
+/*box-sizing: border-box;*/
+/*}*/
+.logo a{
+    color: red;
+}
+.logo a:hover{
+    color: red;
+    text-decoration: none;
+}
+.ul li{
+    margin-right: 15px;
+    line-height: 53px;
+}
+.Ulbtn{
+    box-shadow:5px 10px 10px 0px rgba(216, 216, 216, 0.78);
+    border-left: 2px solid #eee;
+    border-top: 2px solid #eee;
+}
+.Ulbtn li{
+    padding: 8px 10px;
+}
+
+/*nav*/
+.my_p{
+    width:100%;
+    height:1px;
+    background: rgba(119, 119, 119, 0.33);
+    margin: 0;
+    margin-top: 0.8rem;
+}
+
+.all a{
+    color:black;
+}
+.all button:hover,.all button:focus{
+    color: white;
+    background: red !important;
+    box-shadow: 0 0 0 0 transparent !important;
+}
+.all>li>a:hover,.all>li>a:focus{
+    color: white;
+    background: red;
+    box-shadow: 0 0 0 0 transparent !important;
+}
+.all>div>ul>li>a:hover{
+    text-decoration: none;
+    color: red;
+}
+.all>div>ul>li:active{
+    background-color: white !important;
+}
+
+
+
+/*大背景图*/
+.my_hw{
+    height: 600px;
+    width:1000px;
+}
+.my_bgimg{
+    background-image: url("../images/sea.jpg");
+    height: 80%;
+    position: absolute;
+    top: 13rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+/*大背景图上的字*/
+.my_bgfont{
+    font-size: 6em;
+    color:#fff;
+    text-shadow:4px 4px 1px #292929;
+    margin-top:12%;
+}
+.my_bgdesc{
+    font-size: 1.3em;
+    color:rgba(255,255,255,.8);
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+/*大背景图上的链接*/
+.my_link{
+    color:white;
+    /*font-size:0.8rem;*/
+    background:red;
+    padding: 6px 13px;
+    letter-spacing: 1px;
+    font-family: "微软雅黑";
+}
+.my_link:hover{
+    text-decoration: none;
+    color:white;
+}
+ /*about*/
+.my_about{
+	border-radius: 50%;
+	background:red;
+	border: 1px solid red;
+	color:white;
+	text-align: center;
+	padding:0.2em;
+	font-size: 1.2rem;
+	animation: about 5s linear 0.5s infinite normal;
+	cursor: default;
+    letter-spacing: 2px;
+}
+/*.my_about:hover{*/
+	/*background:white;*/
+	/*border: 1px solid white;*/
+	/*color:red;*/
+	/*cursor: default;*/
+/*}*/
+@keyframes about {
+	0%{
+		background:white;
+		border: 1px solid white;
+		color:red;
+
+	}
+	25%{
+		color:white;
+
+	}
+	50%{
+		background:red;
+		border: 1px solid red;
+		color:white;
+
+	}
+	75%{
+		color:white;
+
+	}
+	100%{
+		background:white;
+		border: 1px solid white;
+		color:red;
+
+	}
+}
+
+
+ /*背景红色*/
+ .my_bgred{
+	 background: #F30000;
+	 width:100%;
+	 height:85%;
+	 position: absolute;
+	 left: 0;
+	 right: 0;
+ }
+ .my_spanbor{
+	 display: block;
+	 position: relative;
+	 top:5em;	
+	 width:1em;
+	 height:0.5em;
+	 padding: 3em 6em;
+	 margin-left: 23em;
+	 border: 10px solid rgba(255,255,255,.3);
+ }
+ .my_spantex{
+	 z-index: 2;
+	 margin-left: 16em;
+ }
+ /*SERVICES*/
+ .my_sev{
+	 display: block;
+	 color:#ffe4e4;
+	 font-size: 5.5em;
+	 text-align: center;
+	 letter-spacing: 10px;
+	 padding-top: 0.8em;
+	 padding-bottom: 2em;
+     transition: all 0.3s linear;
+ }
+.my_sev:hover{
+    text-shadow:15px 15px 5px rgba(163, 0, 0, 0.6);
+    margin-top: -5px;
+}
+ 
+ /*条例背景*/
+ .my_bgsev{
+     background-image: url("../images/r2.jpg");
+	 width:100%;
+	 height:85%;
+	 position: absolute;
+	 left: 50%;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 cursor: default;
+}
+
+.my_h_t{
+	width:25px;
+	border-top: 2px solid #26bdf7;
+	transition: width 1s ease-out;
+}
+
+ /*my_item*/
+.my_items:hover .my_item{
+	color: rgba(255, 255, 255, 0.7);
+}
+.my_items:hover .my_h_t{
+	width:50%;
+}
+ /*日期背景 */
+ .my_datebg{
+	width:275px;
+	height:300px;
+	background-image: url("../images/r2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	position: absolute;
+	margin-left: 125px;
+ }
+ 
+.my_datewh{
+	width:253px;
+	height:276px;
+	background:white;
+	position: relative;
+	top:12px;
+	left:11px;
+}
+/*轮播*/
+.my_look{
+	background:#0087c9;
+	position: absolute;
+	left: 0;
+	width:100%;
+
+}
+@media screen and (max-width: 774px){
+    .my_look{
+        margin-top: 15rem;
+    }
+}
+
+.my_lookImg{
+	width:20%;
+	height: 20%;
+	border: 6px solid rgba(255,255,255,.8);
+	transition: border-radius 0.5s linear;
+}
+.my_lookImg:hover{
+    border-radius: 80px;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+}
+.my_yuan li {
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+}
+/*三个放大图*/
+.my_Packages{
+    margin-top: 30rem;
+}
+@media screen and (max-width: 774px){
+    .my_Packages{
+        margin-top: 40rem;
+    }
+}
+.my_packTitle{
+	width:80px;
+	height:80px;
+	background: #c7c7c7;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 5;
+}
+.my_packImg{
+	background-image: url("../images/g3.jpg");
+	width:100%;
+	height: 200px;
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.my_packImg>h5{
+	width: 35%;
+	height:35px;
+	background: red;
+	color: white;
+	line-height: 35px;
+	position: relative;
+	top:165px;
+	left: 33%;
+}
+.my_packA{
+	text-decoration: none;
+	background: #0087c9;
+	color: white;
+	font-size: 1.3rem;
+	padding: 0.8rem 1.3rem;
+	transition: all 0.3s linear;
+}
+.my_packA:hover{
+	text-decoration: none;
+	color: #0087c9;
+	background: rgba(0, 135, 201, 0.4);
+}
+.my_pack{
+	transition: transform 0.5s linear;
+}
+.my_pack:hover{
+	transform: scale(1.05);
+}
+/*team*/
+.my_teamBg{
+	background: #ececec;
+	position: absolute;
+	left: 0;
+	width:100%;
+}
+.my_teamH{
+	color:white;
+	font-size: 2rem;
+	letter-spacing: 1px;
+	top: 16rem;
+	left:9rem;
+	position:absolute;
+	display: none;
+}
+.my_team>img{
+	transform: scale(0.8);
+}
+.my_team:hover .my_teamH{
+	display:inline;
+}
+/*say*/
+.my_what{
+    margin-top: 42rem;
+}
+@media screen and (max-width: 774px){
+    .my_what{
+        margin-top: 65rem;
+    }
+}
+.my_say{
+	padding: 5% 10%;
+	background: #0087c9;
+}
+.my_say>p{
+	color: white;
+}
+.my_say>p:before{
+	content: "“” ";
+}
+.my_say>span{
+	display: block;
+	width: 70%;
+	border-bottom:2px solid rgba(228, 226, 224, 0.75);
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.my_say>h5{
+	float: right;
+}
+/*contact*/
+.my_conA{
+	text-decoration: none;
+	color: #6c757d;
+}
+.my_conA:hover{
+	text-decoration: none;
+	color:#0856b4;
+}
+.my_conB{
+	width:100%;
+	height: 100%;
+	border:5px solid red;
+}
+/*表单*/
+.my_form{
+    width: 100%;
+    height: 23%;
+    padding-left: 2%;
+    border: 1px solid red;
+    margin-bottom: 1.8rem;
+    font-size: 0.8rem;
+}
+.my_formT{
+    width: 100%;
+    padding-left: 2%;
+    border: 1px solid red;
+    font-size: 0.8rem;
+}
+.my_form:hover,.my_form:focus,.my_formT:hover,.my_formT:focus{
+    outline: none;
+    border: 1px solid black;
+}
+
+.my_sub{
+    padding: 0.5rem 1.5rem;
+    outline: none;
+    background: red;
+    color: white;
+    float: right;
+    border: 1px solid red;
+    border-radius: 8%;
+    font-size: 0.8rem;
+}
+.my_sub:hover{
+    border: 1px solid black;
+    background: black;
+}
+
+/*footer*/
+.footer{
+    background:url(../images/r2.jpg) no-repeat no-repeat scroll 0 0;
+    background-size: cover;
+    height: 582px;
+    color: #fff;
+}
+.footer h4{
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+    margin-top: 2rem;
+}
+.footer p{
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 1.5rem 0;
+}
+.footer a{
+    text-decoration:none;
+    color: #fff;
+}
+.footer div:nth-child(3) h4{
+    margin-left: 0.5rem;
+}
+.footer div:nth-child(3) ul>li{
+    margin: 0.5rem;
+    float: left;
+    padding: 0;
+}
+.footer ul>li{
+    margin: 1.5rem 0;
+    list-style: none;
+}
+.footer ul{
+    padding: 0;
+}
+.footer img{
+    width: 66.3px;
+    height: 66.3px;
+}
+.footer_bottom{
+    border:1px solid #fff;
+    border-radius: 8px;
+    background-color: rgba(3, 5, 4, 0.93);
+    padding: 20px 0;
+    margin: 20px auto 0;
+}
+.footer_bottom h4{
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+    margin-top: 18px;
+}
+.footer_bottom p{
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    word-spacing: 1px;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 12px;
+}
+.footer_bottom form{
+    margin-bottom: 20px;
+}
+.footer_bottom input{
+    display: inline-block;
+    border: none;
+    width: 48%;
+    outline: none;
+    padding: 15px;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+.footer_bottom button{
+    width: 12%;
+    background: red;
+    border: 0;
+    padding: 15px;
+    font-size: 1em;
+}
+/*底部白色部分*/
+.assrted{
+    width: 30%;
+    float: left;
+}
+.assrted a h2{
+    color: red;
+    font-size: 35px;
+}
+.assrted p{
+    color: #ababab;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0;
+}
+.foot-con{
+    box-shadow: 5px 10px 10px 0px rgba(216, 216, 216, 0.78);
+    padding: 10px;
+    border:1px solid #e4e4e4;
+    width: 22%;
+    float: right;
+}
+.foot-con h2{
+    color: #031f9a;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.foot-white{
+    margin: 30px auto;
+}
+/*最底部蓝色框*/
+.copyright{
+    background: #0087c9;
+    text-align: center;
+    padding: 15px;
+    margin-top: 9rem;
+}
+.copyright p{
+    margin: 0;
+    line-height: 2;
+    font-size: 14px;
+}

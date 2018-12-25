@@ -1,0 +1,59 @@
+
+.my{
+    width:"100%" !important;
+    height:"215px" !important;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.logo a{
+	color: #0aab8a;
+}
+.logo a:hover{
+	color: #0aab8a;
+	text-decoration: none;
+}
+.ul li{
+	margin-right: 15px;
+	line-height: 53px;
+}
+.Ulbtn{
+	box-shadow:5px 10px 10px 0px rgba(216, 216, 216, 0.78);
+	border-left: 2px solid #eee;
+	border-top: 2px solid #eee;
+}
+.Ulbtn li{
+	padding: 8px 10px;
+}
+
+/*nav*/
+.my_p{
+	width:100%;
+	height:1px;
+	background: rgba(119, 119, 119, 0.33);
+	margin: 0;
+	margin-top: 0.8rem;
+}
+
+.all a{
+	color:black;
+}
+.all button:hover,.all button:focus{
+	color: white;
+	background: red !important;
+	box-shadow: 0 0 0 0 transparent !important;
+}
+.all>li>a:hover,.all>li>a:focus{
+	color: white;
+	background: red;
+	box-shadow: 0 0 0 0 transparent !important;
+}
+.all>div>ul>li>a:hover{
+	text-decoration: none;
+	color: red;
+}
+.all>div>ul>li:active{
+	background-color: white !important;
+}
